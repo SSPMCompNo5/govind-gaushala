@@ -1,0 +1,32 @@
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.local
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Optional: ignore compiled JS (for TypeScript)
+*.js
+*.js.map
+
+# Ignore local database or temp files
+*.sqlite
+*.db
+*.tmp

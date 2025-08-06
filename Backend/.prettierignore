@@ -1,0 +1,18 @@
+# Ignore build and dependencies
+node_modules/
+dist/
+build/
+
+# Ignore compiled files
+*.min.js
+*.bundle.js
+
+# Ignore configuration or environment files
+package-lock.json
+.env
+
+# Ignore coverage reports
+coverage/
+
+# Ignore all JSON files in a folder
+data/*.json
